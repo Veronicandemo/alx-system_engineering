@@ -1,1 +1,2 @@
-echo -e '#!/bin/bash\nln -s /bin/ls _ls_' >13-symbolic_link
+#!/bin/bash
+ln -s /bin/ls _ls_
